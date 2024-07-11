@@ -52,6 +52,8 @@ function checkQuadrant(x, y) {
     }else {
         return "Origin";
     }
+
+    
 }
 
 checkQuadrant(1, 1);
@@ -62,6 +64,8 @@ checkQuadrant(0, -1);
 checkQuadrant(1, 0);
 checkQuadrant(0, 0);
 
+console.log(`Quadrant value is ${checkQuadrant}.`)
+ 
 
 console.log("EXERCISE 4:\n==========\n");
 
@@ -87,6 +91,7 @@ function checkTriangle(a, b, c) {
   }
 }
 
+console.log(`${isValidTriangle}`)
 
 console.log("EXERCISE 5:\n==========\n");
 
